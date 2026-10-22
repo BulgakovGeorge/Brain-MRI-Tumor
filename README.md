@@ -5,7 +5,8 @@
 
 ## Быстрый старт
 
-Загрузите файл "09_colab_prototype_done.ipynb".  
+Загрузите файл "09_colab_prototype_done.ipynb" если вы используете VPN.  
+В другом случае загрузите файл "09_colab_prototype_without_VPN.ipynb".  
 Откройте сайт https://colab.research.google.com/.  
 Загрузите скачанный блокнот.  
 Подключитесь к среде выполнения и запустите все ячейки.  
