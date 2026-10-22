@@ -1,0 +1,17 @@
+data:
+  root: data/raw            # куда распакован датасет (train/ и test/)
+  manifest: data/manifest.csv
+  img_size: 256
+  val_fraction: 0.15
+  seed: 42
+model:
+  name: convnext_tiny       # любая модель из timm
+  pretrained: true
+  num_classes: 4
+train:
+  epochs: 20
+  batch_size: 32
+  lr: 3.0e-4
+  weight_decay: 0.05
+  label_smoothing: 0.1
+classes: [glioma, meningioma, pituitary, no_tumor]

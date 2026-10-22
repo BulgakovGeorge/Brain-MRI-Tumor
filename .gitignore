@@ -1,0 +1,21 @@
+# данные и веса НЕ храним в git
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+data/manifest*.csv
+*.pt
+*.pth
+*.ckpt
+*.onnx
+runs/
+wandb/
+lightning_logs/
+# python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.env
+.DS_Store
+.idea/
+.vscode/

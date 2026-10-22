@@ -1,0 +1,9 @@
+# Лёгкие зависимости: аудит данных, сплиты, тесты (ставятся за минуту)
+numpy
+pandas
+scikit-learn
+pillow
+pyyaml
+tqdm
+matplotlib
+pytest

@@ -1,0 +1,14 @@
+# Полный набор для проекта. Python 3.10-3.12 (на 3.13/3.14 часть библиотек не соберётся)
+-r requirements-base.txt
+
+# ML
+torch
+torchvision
+timm
+albumentations
+opencv-python-headless
+imagehash
+grad-cam
+
+# Прототип
+gradio
